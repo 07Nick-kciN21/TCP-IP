@@ -13,13 +13,14 @@
 ## DHCP（動態主機設定協定）
 >**D** ynamic 
 >**H** ost 
->**C** onfiguration　
+>**C** onfiguration 
 >**P** rotocol　
 ### 
 * IP位址有限，無法給每台主機都分配一個永久位址，在需要連線時向server索取**有時限位址**
 ### 步驟(DORA) 
->**D** iscover 
+>**D** iscover   
 客戶端**找到**"伺服端  
+
 >**O** ffer		    
 伺服端**提供**位置給客戶端 
 
