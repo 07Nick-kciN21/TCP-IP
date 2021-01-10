@@ -138,7 +138,7 @@
 
 > **延伸標頭與選擇項** : 選擇項放入延伸標頭，提升轉送效能 
 
-###IPv6標頭 
+### IPv6標頭 
 <img src="pic/ipv6.png" width="1000" height="600"  align=center /> 
  
 * Ver(4 bits):版本  
