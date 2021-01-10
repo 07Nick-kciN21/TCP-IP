@@ -11,10 +11,10 @@
 
 
 ## DHCP（動態主機設定協定）
->**D** ynamic 
->**H** ost 
->**C** onfiguration 
->**P** rotocol　
+>**D** ynamic  
+**H** ost   
+**C** onfiguration   
+**P** rotocol　  
 ### 
 * IP位址有限，無法給每台主機都分配一個永久位址，在需要連線時向server索取**有時限位址**
 ### 步驟(DORA) 
@@ -33,11 +33,10 @@
 
 ## DNS(網域名稱系統)
 
->**D** omain 
+>**D** omain  
+**N** ame  
+**S** ystem  
 
->**N** ame 
-
->**S** ystem 
 ### 
 * 由數字組成的位址不易觀看與辨識，賦予節點特定名稱方便理解
 * 但在網路中進行通訊依然是用**IP位址**，所以要在兩者間進行轉換
@@ -46,17 +45,14 @@
 * 由**網域名稱** 查 **IP位址** 為**正向名稱查詢**
 * 由**IP位址** 查 **網域名稱** 為**反向名稱查詢**
 ## FQDN(完整網域名稱)
-> **F** ully 
-
-> **Q** ualified 
-
-> **D** omain 
-
-> **N** ame 
+> **F** ully  
+**Q** ualified  
+**D** omain  
+**N** ame  
 
 * 以階層組成，用 **.**  區隔，最多五層 
 
-###主要分為三部分 
+### 主要分為三部分 
 
 **www.google.com** 
 
@@ -69,13 +65,11 @@
 <img src="pic/DNS1.png" width="1000" height="600"  align=center /> 
 
 ## IPv4  
->**I** nternet 
-
->**P** rotocol 
-
->**v** erson **4**  
+>**I** nternet  
+**P** rotocol  
+**v** erson **4**   
  
- ### IP標頭  
+### IP標頭  
 
   * IP協定在網路通訊時所需的訊息 
 <img src="pic/IP標頭.png" width="1000" height="600"  align=center /> 
@@ -132,11 +126,9 @@
 
 ## IPv6 
 克服IPv4的缺點 
-> **位址不足** : 增加到128位元，比Pv4多2^96倍 
-
-> **標頭簡化** : 固定標頭長度，提高處理效能 
-
-> **延伸標頭與選擇項** : 選擇項放入延伸標頭，提升轉送效能 
+> **位址不足** : 增加到128位元，比Pv4多2^96倍  
+**標頭簡化** : 固定標頭長度，提高處理效能  
+**延伸標頭與選擇項** : 選擇項放入延伸標頭，提升轉送效能  
 
 ### IPv6標頭 
 <img src="pic/ipv6.png" width="1000" height="600"  align=center /> 
