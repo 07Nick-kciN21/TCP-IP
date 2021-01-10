@@ -68,7 +68,7 @@
 ## DNS 運作流程 
 <img src="pic/DNS1.png" width="1000" height="600"  align=center /> 
 
-##IPv4  
+## IPv4  
 >**I** nternet 
 
 >**P** rotocol 
