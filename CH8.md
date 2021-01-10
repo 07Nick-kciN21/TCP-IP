@@ -5,7 +5,7 @@
 * 總長度**32位元**，約**四十三億**個位址
 * **8位元**為**1單位**，分**4**部分，以十進位表示
 * 分為**網路位元**和**主機位元**
-<img src="pic/ip分區.png" width="1000" height="600"  align=center /> 
+<img src="pic/ip分區.png" width="1000" height="200"  align=center /> 
 >網路位元 : 辨識IP位址是屬於哪一個網路系統   
 >主機位元 : 辨識IP位址是屬於哪一個電腦主機   
 
@@ -41,7 +41,7 @@
 ### 
 * 由數字組成的位址不易觀看與辨識，賦予節點特定名稱方便理解
 * 但在網路中進行通訊依然是用**IP位址**，所以要在兩者間進行轉換
-<img src="pic/DNS.png" width="1000" height="600"  align=center /> 
+<img src="pic/DNS.png" width="1000" height="200"  align=center /> 
 
 * 由**網域名稱** 查 **IP位址** 為**正向名稱查詢**
 * 由**IP位址** 查 **網域名稱** 為**反向名稱查詢**
